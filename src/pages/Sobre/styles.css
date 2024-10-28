@@ -5,7 +5,7 @@
     outline: none;
 }
 
-body{
+div{
     font-family: 'poppins';
  width: 100%;
  min-height: 100vh;
@@ -44,6 +44,7 @@ body{
     align-items: center;
     gap: 15px;
     margin-bottom: 20px;
+    
 }
 
 .row .contentWrapper span.textWrapper span{
@@ -51,6 +52,7 @@ body{
     background: #383f47;
     width: 70px;
     height: 5px;
+    margin-bottom: 20px;
 }
 
 .row .contentWrapper h2{
