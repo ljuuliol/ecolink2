@@ -5,15 +5,12 @@
     outline: none;
 }
 
-div{
-    font-family: 'poppins';
- width: 100%;
- min-height: 100vh;
- display: grind;
- place-items: center;   
-}
-
 .row{
+    font-family: 'poppins';
+    width: 100%;
+    min-height: 100vh;
+    display: grind;
+    place-items: center;   
     width: 80%;
     max-width: 1170px;
     display: grid;

@@ -1,10 +1,12 @@
+import './styles.css';
+
 function Descartar() {
 
     return (
         <div className="principal">
             
             <div className="bloco">
-                <form action="">
+                <form action="" className="form-descarte">
                 <label htmlFor="name">Localização</label>
                 <input type="text" id="name" name="name" required/>
 
@@ -17,8 +19,10 @@ function Descartar() {
                 <label htmlFor="confirm-password"></label>
                 <input type="password" id="confirm-password" name="confirm-password" required/>
 
-                <button type="submit">Confirmar</button>
                 </form>
+
+                <button type="submit">Confirmar</button>
+
             </div>
 
         </div>

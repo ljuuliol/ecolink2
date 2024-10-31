@@ -7,7 +7,7 @@
   }
   
   body {
-    background-color: #f0f8f4; /* Cor de fundo gelo */
+    background: linear-gradient( #A8E6CF, #DCEDC1); /* Cor de fundo gelo */
     color: #333;
     padding-top: 70px; /* Espaço para não sobrepor o conteúdo abaixo do header */
   }
