@@ -4,19 +4,6 @@ import './Home.css';
 function Home() {
   return (
     <div className="menu_inicial">
-      <header className="main-header-class" id="main-header">
-        <div className="logo">
-          <a href={"/Home"}>
-            <img src="src/assets/LogoEcolink-semFundo.png" alt="logo" className="logo_img" />
-          </a>
-        </div>
-        <nav className="navbar">
-          <a href={"/Descartar"}>Descartar</a>
-          <a href={"/Sobre"}>Sobre Nós</a>
-          <a href={"/Cadastro"}>Cadastro</a>
-          <a href={"/Login"}>Login</a>
-        </nav>
-      </header>
 
       <div className="div_exemplo">
         <img src="src/assets/LogoEcolink.jpg" alt="" className="image_exemplo"/>

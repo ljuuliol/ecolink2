@@ -15,57 +15,12 @@
   .menu_inicial {
     padding: 20px;
   }
-  
-  /* Header */
-  .main-header-class {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #d8e8d6; /* Verde pastel suave */
-    padding: 10px 30px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    z-index: 1000;
-  }
-  
-  .logo_img {
-    height: 50px;
-    width: 50px;
-  }
-  
-  /* Navbar */
-  .navbar {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navbar a {
-    color: #357a38; /* Tom de verde escuro */
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-  }
-  
-  .navbar a:hover {
-    color: #2a5b2e; /* Efeito hover com tom de verde mais escuro */
-  }
-  
+
   /* Título da página */
   h2 {
     text-align: center;
     margin-top: 50px;
     color: #357a38;
-  }
-  
-  a {
-    color: #357a38;
-  }
-  
-  a:hover {
-    color: #2a5b2e;
   }
   
  .image_exemplo {
