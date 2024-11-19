@@ -5,6 +5,7 @@ import Home from "./pages/Home/Index";
 import Descartar from "./pages/Descartar";
 import Sobre from "./pages/Sobre";
 import { Menu } from "./pages/Menu";
+import { NotFound } from "./pages/NotFound";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
               <Route path="/home" element={<Home />} />
               <Route path="/Descartar" element={<Descartar />} />
               <Route path="/Sobre" element={<Sobre/>} />
+              <Route path="*" element={<NotFound />} />
           </Routes>
     </BrowserRouter>
   )
