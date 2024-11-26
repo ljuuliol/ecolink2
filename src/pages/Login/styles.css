@@ -75,23 +75,23 @@ input:focus {
     border-color: #4caf50;
 }
 
-.home-container {
+.arrow-container {
     display: flex;
     align-items: center;
     margin-top: 2px;
   }
   
-  .home-icon {
+  .arrow-icon {
     margin-right: none;
     font-size: 30px;
   }
   
-  .home-container a {
+  .arrow-container a {
     text-decoration: none;
     color: #c8ddcd;
   }
   
-  .button-home {
+  .button-arrow {
     background-color: #110f0f;
     color: #fff;
     padding: 12px;

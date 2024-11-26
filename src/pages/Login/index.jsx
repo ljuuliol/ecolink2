@@ -1,6 +1,6 @@
 import { SlArrowLeft } from "react-icons/sl"; // importando icone
 import { useNavigate } from "react-router-dom"; // importando o hook useNavigate
-
+import './styles.css';
 function Login() {
     const navigate = useNavigate(); // criando a função navigate
     return (
@@ -16,9 +16,9 @@ function Login() {
 
                 <div className="container">
 
-                <div className="home-container">
-                    <button className="button-home" onClick={() => navigate(-1)}>
-                            <SlArrowLeft className="home-icon" />
+                <div className="arrow-container">
+                    <button className="button-arrow" onClick={() => navigate(-1)}>
+                            <SlArrowLeft className="arrow-icon" />
                             {/* Ícone de seta para voltar */}
                     </button>
 
