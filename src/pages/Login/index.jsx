@@ -13,17 +13,16 @@ function Login() {
 
 
             <div className="card">
-
-                <div className="container">
-
-                <div className="arrow-container">
-                    <button className="button-arrow" onClick={() => navigate(-1)}>
+                <button className="button-arrow" onClick={() => navigate(-1)}>
                             <SlArrowLeft className="arrow-icon" />
                             {/* Ícone de seta para voltar */}
                     </button>
 
-                </div>
 
+                <div className="container">
+                    
+
+                
                 <h2>Login</h2>
                 <form action="#" method="POST">
                     <label htmlFor="email">Email</label>
