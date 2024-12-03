@@ -24,12 +24,14 @@
   }
   
  .image_exemplo {
-    
+    display: flex;
     align-items: center;
     justify-content: center;
-    width: 1200px;
-    height: 850px;
+    max-width: 100%;
+    height: auto;
     padding-bottom: 3%;
+    overflow: hidden;
+    
  }
 
  .div_exemplo {
@@ -37,7 +39,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 350px;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
  }
 
  .div_botao_exemplo{
